@@ -1,5 +1,5 @@
 import http
-
+#Question 1
 a = 6
 
 a = a - 2
@@ -14,8 +14,11 @@ a = a // 3
 
 print(a)
 
+
+#Question 2
 print(2+3*6/2)
 
+#Question 3
 import datetime
 
 a = 3
@@ -33,6 +36,7 @@ print(c)
 d = "abc" * (c // 3)
 print(d)
 
+#Question 4
 def palindrome(word):
     if word == word[::-1]:
         return True
@@ -46,6 +50,7 @@ print(palindrome("0974101607733149676776769413377061014790"))
 print(palindrome("4257304920394478392772938744930294037524"))
 
 
+#code to show mutable and immutanle differences
 list1 = [1, 2, 3, 4, 5]
 str1 = "abc"
 print(list1[0])
@@ -59,6 +64,7 @@ print(list1)
 print(str1)
 
 
+#creating a list question
 import random
 random_numbers = []
 for i in range(10):
@@ -72,6 +78,8 @@ for i in range(10):
 
 print(random_numbers) #we print the list
 
+
+#valid url question
 def valid_url(url):
     if "http" in url and "." in url and "://" in url:
         return True
