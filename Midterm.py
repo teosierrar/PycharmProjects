@@ -80,3 +80,9 @@ def valid_url(url):
         print(f"invalid url")
 
 print(valid_url("https://www.google.com/search?q=http+vs+https&sca_esv=e5ef21b71770b976&rlz=1C5CHFA_enES1073ES1074&ei=Zaq0Z5qVLKeskdUP-IKFyQc&oq=http&gs_lp=Egxnd3Mtd2l6LXNlcnAiBGh0dHAqAggAMgsQABiABBiRAhiKBTILEAAYgAQYkQIYigUyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESIoTUIoDWO4IcAF4AZABAJgBwAGgAYIFqgEDMC40uAEByAEA-AEBmAIFoAKaBagCA8ICExAAGIAEGEMYtAIYigUY6gLYAQHCAgsQLhiABBjRAxjHAcICCBAuGIAEGNQCwgIFEC4YgASYAwnxBSqEIDu0TaYougYECAEYB5IHAzEuNKAHpx4&sclient=gws-wiz-serp"))
+
+#question 9
+year_born= (input("Enter your date of birth: (DD/MM/YYYY)"))
+year_born = year_born[6:]
+difference = [18-year_born[0:1], 13-year_born[2:3], 2025-year_born[4:5]]
+print(difference)
